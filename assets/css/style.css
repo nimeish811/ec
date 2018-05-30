@@ -1,0 +1,42 @@
+.fileUpload {
+    position: absolute;
+    top: 0;
+	left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.category .table > tbody > tr > td {
+	vertical-align: middle;
+}
+.action {
+	font-size: 16px;
+	color: #1f9ecc;
+}
+.action.fa-trash-o {
+	margin-left: 10px;
+	color: #d70000;
+}
+.success-message {
+  background-color: #4caf50;
+  padding: 8px;
+  color: #fff;
+}
+.error-message {
+  background-color: #f44336;
+  padding: 8px;
+  color: #fff;
+}
+.errormsg {
+  color: #f44336;
+  font-size: 14px;
+}
+.missing{
+  border: 1px solid red;
+}
+.red {
+  color: #d70000;
+}

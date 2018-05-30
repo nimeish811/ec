@@ -1,0 +1,177 @@
+/*page 1 css*/
+
+#myCarousel .list-inline {
+    white-space:nowrap;
+    overflow-x:auto;
+}
+
+#myCarousel .carousel-indicators {
+    position: relative;
+    left: initial;
+    width: initial;
+   
+    margin-top: 20px;
+}
+
+#myCarousel .carousel-indicators > li {
+    width:inherit;
+    height: initial;
+    text-indent: initial;
+}
+
+#myCarousel .carousel-indicators > li.active img {
+    opacity: 0.7;
+}
+
+.product-title h2
+{
+    font-weight: 500;
+    
+}
+
+.product-title h4
+{
+    font-weight: 400;
+    
+}            
+              </div>
+
+.product-title h4 .t2
+{
+    margin-left: 20px;
+}
+
+.product-title i
+{
+    font-size: 20px;
+    color: #FBAF31;
+}
+
+.product-title .rating_avg
+{
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.product-detail p
+{
+    font-size: 14px;
+}
+
+/*page 2 css*/
+
+.pg_2 h4
+{
+    font-weight: 600;
+}
+
+input[type=checkbox] + label {
+  display: inline-block;
+  margin: 0.2em;
+  cursor: pointer;
+  padding: 0.2em;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+input[type=checkbox] + label:before {
+  content: "\2714";
+  border: 0.1em solid #000;
+  border-radius: 0.2em;
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  padding-left: 0.3em;
+  padding-bottom: 0.5em;
+  margin-right: 0.2em;
+  vertical-align: bottom;
+  color: transparent;
+  transition: .2s;
+  font-size: 22px;
+  background: #ccc;
+}
+
+input[type=checkbox] + label:active:before {
+  transform: scale(0);
+}
+
+input[type=checkbox]:checked + label:before {
+  background-color: MediumSeaGreen;
+  border-color: MediumSeaGreen;
+  color: #fff;
+}
+
+input[type=checkbox]:disabled + label:before {
+  transform: scale(1);
+  border-color: #aaa;
+}
+
+input[type=checkbox]:checked:disabled + label:before {
+  transform: scale(1);
+  background-color: #ffb;
+  border-color: #bfb;
+}
+
+.description .quote
+{
+    margin-top: 10px;
+}
+.description p
+{
+    text-align: justify;
+}
+
+.description .address p
+{
+    margin: 0 !important;
+}
+
+.pg_2_btn
+{
+    padding: 15px 10px 10px 10px;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-weight: 500;
+}
+
+/* Page_3 css*/
+
+.pg_3_btn .btn
+{
+    border-radius: 0;
+    margin-top: 10px;
+}
+.pg_3_reviews i
+{
+    font-size: 20px;
+    color: #FBAF31;
+ }
+.pg_3_reviews p
+{
+  text-align:justify;
+}
+
+/*page 3 modal*/
+
+.mbody .mbtn .btn
+{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.mheader
+{
+    background-color: #03A0F1 !important;
+    color: #fff;
+}
+
+.mheader .close
+{
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 0;
+}

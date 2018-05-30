@@ -1,0 +1,7 @@
+[28-May-2018 16:33:18 UTC] PHP Parse error:  syntax error, unexpected '$package_detail' (T_VARIABLE) in /home/manakiinfote/public_html/mankiinfotech.com/ADMIN/application/views/user/package_detail.php on line 44
+[29-May-2018 04:29:24 UTC] PHP Fatal error:  Call to undefined method Admin_master::post() in /home/manakiinfote/public_html/mankiinfotech.com/ADMIN/application/controllers/Admin_master.php on line 531
+[29-May-2018 04:32:18 UTC] PHP Fatal error:  Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in /home/manakiinfote/public_html/mankiinfotech.com/ADMIN/application/controllers/Admin_master.php on line 532
+[29-May-2018 04:53:01 UTC] PHP Parse error:  syntax error, unexpected 'home' (T_STRING), expecting ',' or ';' in /home/manakiinfote/public_html/mankiinfotech.com/ADMIN/application/controllers/Admin_master.php on line 573
+[29-May-2018 16:17:06 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/manakiinfote/public_html/mankiinfotech.com/ADMIN/application/views/user/home.php on line 45
+[29-May-2018 16:17:36 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/manakiinfote/public_html/mankiinfotech.com/ADMIN/application/views/user/home.php on line 45
+[29-May-2018 17:31:36 UTC] PHP Fatal error:  Call to undefined method Admin_model::add_review() in /home/manakiinfote/public_html/mankiinfotech.com/ADMIN/application/controllers/Admin_master.php on line 599

@@ -1,0 +1,118 @@
+/*Page 1 CSS*/
+
+.product-title h2
+{
+    font-weight: 600;
+    
+}
+
+.product-title h4
+{
+    font-weight: 600;
+    
+}
+
+.product-title h4 .t2
+{
+    margin-left: 20px;
+}
+
+.product-title i
+{
+    font-size: 20px;
+    color: #FBAF31;
+}
+
+.product-title .rating_avg
+{
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+#carousel-example-generic
+{
+    margin-top: 10px;
+}
+.small-carousel
+{
+    margin-top: 10px;
+}
+
+/*pag 2 css*/
+
+.pg_2 h4
+{
+    font-weight: 600;
+}
+
+input[type=checkbox] + label {
+  display: inline-block;
+  margin: 0.2em;
+  cursor: pointer;
+  padding: 0.2em;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+input[type=checkbox] + label:before {
+  content: "\2714";
+  border: 0.1em solid #000;
+  border-radius: 0.2em;
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  padding-left: 0.3em;
+  padding-bottom: 0.5em;
+  margin-right: 0.2em;
+  vertical-align: bottom;
+  color: transparent;
+  transition: .2s;
+  font-size: 22px;
+  background: #ccc;
+}
+
+input[type=checkbox] + label:active:before {
+  transform: scale(0);
+}
+
+input[type=checkbox]:checked + label:before {
+  background-color: MediumSeaGreen;
+  border-color: MediumSeaGreen;
+  color: #fff;
+}
+
+input[type=checkbox]:disabled + label:before {
+  transform: scale(1);
+  border-color: #aaa;
+}
+
+input[type=checkbox]:checked:disabled + label:before {
+  transform: scale(1);
+  background-color: #ffb;
+  border-color: #bfb;
+}
+
+.description .quote
+{
+    margin-top: 10px;
+}
+.description p
+{
+    text-align: justify;
+}
+
+.description .address p
+{
+    margin: 0 !important;
+}
+
+.pg_2_btn
+{
+    padding: 15px 10px 10px 10px;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-weight: 500;
+}

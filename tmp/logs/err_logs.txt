@@ -1,0 +1,1 @@
+14/08/2017 04:58:40 --- 32, PHP Startup: Unable to load dynamic library '/usr/lib/php/20160303/mysqli.so' - /usr/lib/php/20160303/mysqli.so: undefined symbol: mysqlnd_global_stats, Unknown, 0 
